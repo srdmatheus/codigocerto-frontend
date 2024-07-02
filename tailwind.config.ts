@@ -8,18 +8,18 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
-    colors: {
-      background: {
-        DEFAULT: "rgb(var(--background))"
-      },
-      foreground: {
-        DEFAULT: "rgb(var(--foreground))"
-      },
-      primary: {
-        DEFAULT: "rgb(var(--primary))"
-      }
-    },
     extend: {
+      colors: {
+        background: {
+          DEFAULT: "rgb(var(--background))"
+        },
+        foreground: {
+          DEFAULT: "rgb(var(--foreground))"
+        },
+        primary: {
+          DEFAULT: "rgb(var(--primary))"
+        }
+      },
       fontFamily: {
         sans: ["var(--font-inter)", ...fontFamily.sans]
       }
