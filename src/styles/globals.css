@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0 0;
+    --foreground: 255 255 255;
+    --primary: 229 57 57;
+  }
+
+  body {
+    @apply h-dvh overflow-x-hidden antialiased;
+  }
+
+  img {
+    @apply block h-auto max-w-full;
+  }
+}
