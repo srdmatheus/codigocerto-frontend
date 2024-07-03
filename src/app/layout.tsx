@@ -16,7 +16,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="pt-br">
       <body
-        className={`${inter.variable} bg-background text-foreground font-sans`}
+        className={`${inter.variable} bg-background font-sans text-foreground`}
       >
         {children}
       </body>
