@@ -35,7 +35,10 @@ export const HeroSection = () => {
           <Text>
             Essa página foi criada com o intuito de me apresentar e explicar por
             que desejo fazer parte da comunidade{" "}
-            <Link href="www.codigocertocoders.com.br">Código Certo</Link>.
+            <Link href="https://www.codigocertocoders.com.br">
+              Código Certo
+            </Link>
+            .
           </Text>
         </RevealAnimation>
         <RevealAnimation>
