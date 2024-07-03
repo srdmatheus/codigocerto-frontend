@@ -16,4 +16,16 @@
   img {
     @apply block h-auto max-w-full;
   }
+
+  ::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-2xl bg-primary;
+  }
+
+  ::selection {
+    @apply bg-primary text-foreground;
+  }
 }
